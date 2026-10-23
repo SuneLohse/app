@@ -1,0 +1,744 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Batch Production">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 1333476997 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABA Batch Consumption Buffer - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1333476997 - Field 3557664220 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Percentage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABA Batch Consumption Buffer - Field Percentage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1333476997 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABA Batch Consumption Buffer - Field Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1333476997 - Field 312545736 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABA Batch Consumption Buffer - Field Source Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1333476997 - Field 1882905478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABA Batch Consumption Buffer - Field Source No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1333476997 - Field 1753214751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABA Batch Consumption Buffer - Field Source Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1333476997 - Field 3017471043 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABA Batch Consumption Buffer - Field Table No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 825283582 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABA Item Tracking List - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 825283582 - Field 1579714849 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expiration Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABA Item Tracking List - Field Expiration Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 825283582 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABA Item Tracking List - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 825283582 - Field 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABA Item Tracking List - Field Location Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 825283582 - Field 1482668068 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lot No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABA Item Tracking List - Field Lot No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 825283582 - Field 3246430406 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Qty. (Base)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABA Item Tracking List - Field Remaining Qty. (Base) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 825283582 - Field 47037625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Serial No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABA Item Tracking List - Field Serial No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 825283582 - Field 3450651614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABA Item Tracking List - Field Variant Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 885747304 - NamedType 1222197843" size-unit="char" translate="yes" xml:space="preserve">
+          <source>More</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ABA Batch Production Functions - NamedType MoreLinesExistsMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 885747304 - Method 1649337407 - NamedType 3662401593" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is no Componentens related to the Production Order Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ABA Batch Production Functions - Method FillInProdOrderCompMatrix - NamedType CompExistErr</note>
+        </trans-unit>
+        <trans-unit id="Page 2126095063 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Split Production Order Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Batch Split Prod. Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2126095063 - Control 880136295 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the total number of lines to split the selected line into.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Batch Split Prod. Line - Control NoOfLines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2126095063 - Control 880136295 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Number of Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Batch Split Prod. Line - Control NoOfLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 825283582 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Tracking List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Item Tracking List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Information Matrix</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - NamedType 2024771351" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type must be %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - NamedType SCB672Text001</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 284195533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control Filters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 2858246061 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. of lines field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control COUNT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 2858246061 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control COUNT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 2593589163 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Template field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control GlobalSetupCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 2593589163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Template</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control GlobalSetupCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 2750400213 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Special Sorting Field field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control GlobalSortingField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 2750400213 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Special Sorting Field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control GlobalSortingField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 2416284977 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column1 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control Column1 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 827396561 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column10 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control Column10 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 1465093178 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column11 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control Column11 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 3846970623 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column12 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control Column12 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 189699944 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column13 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control Column13 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 3378183029 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column14 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control Column14 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 4015879646 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column15 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control Column15 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 1778588360 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column2 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control Column2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 1140891743 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column3 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control Column3 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 1309800766 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column4 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control Column4 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 672104149 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column5 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control Column5 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 34407532 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column6 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control Column6 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 3691678211 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column7 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control Column7 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 3860587234 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column8 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control Column8 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 3222890617 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column9 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control Column9 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Entry No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 2799230977 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the ItemVariantRemove field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control Item Variant Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 717718184 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 1 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control KeyField1 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 1531148992 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 10 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control KeyField10 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 1355414801 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 2 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control KeyField2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 1993111418 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 3 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control KeyField3 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 2630808035 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 4 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control KeyField4 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 3268504652 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 5 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control KeyField5 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 3906201269 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 6 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control KeyField6 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 248930590 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 7 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control KeyField7 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 886627207 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 8 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control KeyField8 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 1524323824 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 9 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control KeyField9 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 3616153432 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Special Sorting No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control Special Sorting No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Table field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3631759301 - Control 1878130204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1462442880 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Order Matrix</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Order Matrix - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1462442880 - Control 1177091774 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Components</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Order Matrix - Control CompMatrix - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2926403210 - Action 1593737613 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1295051820">
+          <source>Splits the selected line into several lines with the quantity divided evenly between them.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ABA Batch Firm Prod. Line Ext - Action ABA Batch Split Prod. Order Line - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2926403210 - Action 1593737613 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1295051820">
+          <source>Split Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ABA Batch Firm Prod. Line Ext - Action ABA Batch Split Prod. Order Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2926403210 - Action 1462442880 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1295051820">
+          <source>Opens the production order matrix.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ABA Batch Firm Prod. Line Ext - Action ABA Production Order Matrix - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2926403210 - Action 1462442880 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1295051820">
+          <source>Production Order Matrix</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ABA Batch Firm Prod. Line Ext - Action ABA Production Order Matrix - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1987472430 - Action 1593737613 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 319452331">
+          <source>Splits the selected line into several lines with the quantity divided evenly between them.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ABA Batch Prod. Order Lines - Action ABA Batch Split Prod. Order Line - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1987472430 - Action 1593737613 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 319452331">
+          <source>Split Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ABA Batch Prod. Order Lines - Action ABA Batch Split Prod. Order Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2934826096 - Action 2551662093 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 673425998">
+          <source>Shop Floor Registrations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ABA Batch Production Journal - Action ABA Batch Production Shop Floor Registrations - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 90491796 - Action 2939155469 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1247650216">
+          <source>Executes the Master Data Information action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ABA MDI Con Journal Extension - Action ABA Batch Production SCB 682 Master Data Information - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 90491796 - Action 2939155469 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1247650216">
+          <source>Master Data Information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ABA MDI Con Journal Extension - Action ABA Batch Production SCB 682 Master Data Information - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 90491796 - Action 720054996 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1247650216">
+          <source>Open up Information Matrix</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ABA MDI Con Journal Extension - Action ABA Batch Production SCB Information Matrix - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 90491796 - Action 720054996 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1247650216">
+          <source>Information Matrix</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ABA MDI Con Journal Extension - Action ABA Batch Production SCB Information Matrix - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2934826096 - Action 2939155469 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 673425998">
+          <source>Executes the Master Data Information action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ABA MDI Prod Journal Extension - Action ABA Batch Production SCB 682 Master Data Information - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2934826096 - Action 2939155469 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 673425998">
+          <source>Master Data Information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ABA MDI Prod Journal Extension - Action ABA Batch Production SCB 682 Master Data Information - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2934826096 - Action 720054996 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 673425998">
+          <source>Open up Information Matrix</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ABA MDI Prod Journal Extension - Action ABA Batch Production SCB Information Matrix - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2934826096 - Action 720054996 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 673425998">
+          <source>Information Matrix</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ABA MDI Prod Journal Extension - Action ABA Batch Production SCB Information Matrix - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3452335934 - Field 2251222901 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2308244223">
+          <source>How many Batches</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA Batch Production Order Ext - Field ABA how Many Batches - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3452335934 - Field 39904206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2308244223">
+          <source>Quantity per Batch</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA Batch Production Order Ext - Field ABA Quantity per Batch - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 2078115500 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Add Lot Qty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA IJL Batch Production - Field ABA Add Lot Qty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 4231151529 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Add Serial Qty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA IJL Batch Production - Field ABA Add Serial Qty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 4169586711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Consumption Percentage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA IJL Batch Production - Field ABA Batch Production ConsPct. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 3488311542 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Lot No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA IJL Batch Production - Field ABA Lot No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 3380928951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Serial No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA IJL Batch Production - Field ABA Serial No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 2869322425 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Tracked Lot Qty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA IJL Batch Production - Field ABA Tracked Lot Qty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 2071623123 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Shows value of the Specification - configured for Master Data Information field 1 </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 1 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 2071623123 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Master Data Information Field 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 3308323459 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Shows value of the Specification - configured for Master Data Information field 10 </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 10 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 3308323459 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Master Data Information Field 10</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 10 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 3946020076 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Shows value of the Specification - configured for Master Data Information field 11 </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 11 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 3946020076 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Master Data Information Field 11</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 11 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 288749397 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Shows value of the Specification - configured for Master Data Information field 12 </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 12 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 288749397 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Master Data Information Field 12</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 12 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 926446014 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Shows value of the Specification - configured for Master Data Information field 13 </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 13 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 926446014 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Master Data Information Field 13</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 13 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 757536991 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Shows value of the Specification - configured for Master Data Information field 14 </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 14 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 757536991 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Master Data Information Field 14</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 14 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 1395233608 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Shows value of the Specification - configured for Master Data Information field 15 </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 15 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 1395233608 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Master Data Information Field 15</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 15 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 2032930225 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Shows value of the Specification - configured for Master Data Information field 16 </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 16 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 2032930225 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Master Data Information Field 16</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 16 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 2670626842 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Shows value of the Specification - configured for Master Data Information field 17 </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 17 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 2670626842 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Master Data Information Field 17</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 17 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 4114929099 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Shows value of the Specification - configured for Master Data Information field 18 </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 18 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 4114929099 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Master Data Information Field 18</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 18 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 457658420 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Shows value of the Specification - configured for Master Data Information field 19 </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 19 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 457658420 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Master Data Information Field 19</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 19 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 3984712974 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Shows value of the Specification - configured for Master Data Information field 2 </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 3984712974 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Master Data Information Field 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 1980042454 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Shows value of the Specification - configured for Master Data Information field 20 </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 20 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 1980042454 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Master Data Information Field 20</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 20 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 1342345837 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Shows value of the Specification - configured for Master Data Information field 21 </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 21 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 1342345837 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Master Data Information Field 21</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 21 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 704649220 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Shows value of the Specification - configured for Master Data Information field 22 </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 22 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 704649220 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Master Data Information Field 22</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 22 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 66952603 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Shows value of the Specification - configured for Master Data Information field 23 </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 23 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 66952603 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Master Data Information Field 23</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 23 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 3724223282 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Shows value of the Specification - configured for Master Data Information field 24 </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 24 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 3724223282 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Master Data Information Field 24</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 24 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 3347016357 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Shows value of the Specification - configured for Master Data Information field 3 </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 3 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 3347016357 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Master Data Information Field 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 158533272 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Shows value of the Specification - configured for Master Data Information field 4 </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 4 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 158533272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Master Data Information Field 4</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 3815803951 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Shows value of the Specification - configured for Master Data Information field 5 </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 5 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 3815803951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Master Data Information Field 5</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 5 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 1433926506 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Shows value of the Specification - configured for Master Data Information field 6 </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 6 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 1433926506 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Master Data Information Field 6</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 6 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 796229889 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Shows value of the Specification - configured for Master Data Information field 7 </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 7 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 796229889 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Master Data Information Field 7</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 7 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 3515925380 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Shows value of the Specification - configured for Master Data Information field 8 </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 8 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 3515925380 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Master Data Information Field 8</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 8 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 2878228763 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Shows value of the Specification - configured for Master Data Information field 9 </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 9 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3787097910 - Field 2878228763 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Master Data Information Field 9</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Item Journal Line - Field SCB MDI Field 9 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 219668940 - Field 2934826096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2057344005">
+          <source>Specifies whether Master Data on Documents should be transferred to the Production Journal Lines when creating a Batch Production Journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Master Data Doc Cont - Field ABA Batch Production Journal - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 219668940 - Field 2934826096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2057344005">
+          <source>Transfer to Production Journals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Master Data Doc Cont - Field ABA Batch Production Journal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 219668940 - Field 426751742 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2057344005">
+          <source>Specifies whether Master Data on Documents should be transferred to the Lot and Serial Numbers created when posting the Batch Production Journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Master Data Doc Cont - Field ABA Batch Production LotSerial - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 219668940 - Field 426751742 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2057344005">
+          <source>Transfer to Lot and Serial Numbers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Master Data Doc Cont - Field ABA Batch Production LotSerial - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1707671606 - Field 2934826096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3179648778">
+          <source>Specifies whether Master Data on Documents should be transferred to the Production Journal Lines when creating a Batch Production Journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Master Data Doc Temp - Field ABA Batch Production Journal - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1707671606 - Field 2934826096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3179648778">
+          <source>Transfer to Production Journals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Master Data Doc Temp - Field ABA Batch Production Journal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1707671606 - Field 426751742 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3179648778">
+          <source>Specifies whether Master Data on Documents should be transferred to the Lot and Serial Numbers created when posting the Batch Production Journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Master Data Doc Temp - Field ABA Batch Production LotSerial - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1707671606 - Field 426751742 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3179648778">
+          <source>Transfer to Lot and Serial Numbers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA MDI Master Data Doc Temp - Field ABA Batch Production LotSerial - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1086590375 - Field 2078115500 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3495052746">
+          <source>Add Lot Qty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA Prod. Order Component Ext - Field ABA Add Lot Qty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1086590375 - Field 4231151529 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3495052746">
+          <source>Add Serial Qty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA Prod. Order Component Ext - Field ABA Add Serial Qty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1086590375 - Field 3488311542 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3495052746">
+          <source>Lot No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA Prod. Order Component Ext - Field ABA Lot No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1086590375 - Field 3380928951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3495052746">
+          <source>Serial No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA Prod. Order Component Ext - Field ABA Serial No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1086590375 - Field 2869322425 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3495052746">
+          <source>Tracked Lot Qty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA Prod. Order Component Ext - Field ABA Tracked Lot Qty - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

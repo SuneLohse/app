@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "BC Saas Sandbox - Dynus_SLO",
+            "type": "al",
+            "request": "launch",
+            "environmentName": "Dynus_SLO",
+            "environmentType": "Sandbox",
+            "tenant": "ff3b9b21-1f6d-404f-9c7d-60b44ba1f624",
+            "launchBrowser": true,
+            "authentication": "AAD",
+            "schemaUpdateMode": "ForceSync",
+            "breakOnError": "ExcludeTry",
+            "disableHttpRequestTimeout": true
+        }
+    ]
+}

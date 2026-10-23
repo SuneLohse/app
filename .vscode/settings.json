@@ -1,0 +1,21 @@
+{
+  "al.enableCodeAnalysis": false,
+  "al.codeAnalyzers": [
+    "${CodeCop}",
+    "${PerTenantExtensionCop}"
+  ],
+  "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+  "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+  "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+  "CRS.OnSaveAlFileAction": "Reorganize",
+  //"CRS.ObjectNamePrefix": "ABA Batch Production ",
+  "CRS.RenameWithGit": false,
+  "editor.formatOnSave": true,
+  "alOutline.codeActionsOnSave": [
+    "SortVariables",
+    "SortProperties"
+  ],
+  "search.exclude": {
+    "**/.alcache": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "ms-dynamics-smb.al",
+        "davidfeldhoff.al-codeactions",
+        "andrzejzwierzchowski.al-code-outline",
+        "waldo.crs-al-language-extension",
+        "waderyan.gitblame", 
+        "mhutchie.git-graph",
+        "donjayamanne.githistory",
+        "huizhou.githd",
+        "eamodio.gitlens"
+    ]
+}

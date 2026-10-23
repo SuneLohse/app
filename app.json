@@ -1,0 +1,58 @@
+{
+  "id": "d5431f4b-cb82-4e37-b013-5e0ad448d725",
+  "name": "Batch Production",
+  "publisher": "Abakion",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "https://abakion.com/privacypolicy",
+  "EULA": "https://abakion.com/licenseterms",
+  "help": "https://abakion.com/support/apps",
+  "url": " https://abakion.com/dynamics-365/apps/",
+  "logo": "./Assets/logo.png",
+  "dependencies": [
+    {
+      "id": "9cf9feca-8d2d-49f3-a03d-6ae05f910b2c",
+      "name": "Abakion App Manager core",
+      "publisher": "Abakion",
+      "version": "25.0.0.0"
+    },
+    {
+      "id": "f2c0288a-73c9-4656-bad0-8fb04657ceec",
+      "name": "Master Data Information",
+      "publisher": "Abakion",
+      "version": "25.0.0.0"
+    },
+    {
+      "id": "d9c502ba-95ee-4a55-9a13-78dbffb6c1f5",
+      "name": "Mobile Flow Core",
+      "publisher": "Abakion",
+      "version": "25.0.0.0"
+    },
+    {
+      "id": "697f6a9a-b88f-4bb9-afb0-7f50d5bd0c82",
+      "name": "Shop Floor Mobile",
+      "publisher": "Abakion",
+      "version": "25.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "28.0.0.0",
+  "application": "28.0.0.0",
+  "idRanges": [
+    {
+      "from": 70000,
+      "to": 70999
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "includeSourceInSymbolFile": true,
+    "allowDownloadingSource": true
+  },
+  "features": [
+    "TranslationFile"
+  ],
+  "contextSensitiveHelpUrl": "https://usedynamics.com/",
+  "runtime": "17.0"
+}

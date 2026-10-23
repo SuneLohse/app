@@ -1,0 +1,92 @@
+{
+    "name": "PTE Default",
+    "description": "Default best practice ruleset for PTE",
+     "generalAction": "Hidden",
+    "rules": [
+        {
+            "id": "AA0139",
+            "action": "Hidden",
+            "justification": "Not possible to solve"
+        },
+        {
+            "id": "AA0194",
+            "action": "Hidden",
+            "justification": "Handled in events"
+        },
+        {
+            "id": "AW0006",
+            "action": "Hidden",
+            "justification": "Usage should not be set"
+        },
+        {
+            "id": "AA0214",
+            "action": "Hidden",
+            "justification": "Bug in cop"
+        },
+        {
+            "id": "AA0240",
+            "action": "Info",
+            "justification": "Fix email/phone in label"
+        },
+        {
+            "id": "AA0072",
+            "action": "Hidden",
+            "justification": "not relevant"
+        },
+        {
+            "id": "AS0099",
+            "action": "Hidden",
+            "justification": "This is ok not allwhich is allocated to the application, and outside the range '[50000..99999]', which is allocated to per-tenant customizations."
+        },
+        {
+            "id": "AA0217",
+            "action": "Info",
+            "justification": "format string in StrSubscNo"
+        },
+        {
+            "id": "AA0005",
+            "action": "Info",
+            "justification": "Only use BEGIN..END to enclose compound can be fixed later"
+        },
+        {
+            "id": "AA0470",
+            "action": "Hidden",
+            "justification": "placeholder needs comment wil do later"
+        },
+		{
+			"id": "AW0008",
+            "action": "Info",
+            "justification": "repeater can not be changed"
+		},
+        {
+			"id": "AA0073",
+            "action": "Info",
+            "justification": "prefix with temp ignored for now"
+		},
+		{
+			"id": "AA0100",
+            "action": "Info",
+            "justification": "Do not have identifiers with quotes in the name can not be resolved will be a breaking change"
+		},
+        {
+			"id": "AA0206",
+            "action": "Info",
+            "justification": "field not initialized can be fixed later not critical"
+		},
+		{
+            "id": "AA0074",
+            "action": "Hidden",
+            "justification": "Fix prefix later"
+        },
+		{
+			"id" : "AA0207",
+			"action": "Info",
+            "justification": "Not possible to solve without obsolete function"
+		},
+		{
+			"id" : "AL0659",
+			"action": "Hidden",
+            "justification": "Need refactor or MS will fix in future"
+		}
+    ]
+}
