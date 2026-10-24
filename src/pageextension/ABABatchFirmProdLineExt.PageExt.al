@@ -26,8 +26,7 @@ pageextension 70532 "ABA Batch Firm Prod. Line Ext" extends "Firm Planned Prod. 
 
                 trigger OnAction()
                 begin
-                    BatchProductionFunctions.PrepareProdOrderCompMatrix(Rec);
-                    //Page.Run(Page::"ABA Production Order Matrix");
+                    BatchProductionFunctions.FillInProdLineMatrix(Rec);
                 end;
             }
         }

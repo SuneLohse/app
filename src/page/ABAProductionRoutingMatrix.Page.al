@@ -1,8 +1,8 @@
 #pragma implicitwith disable
-page 70523 "ABA Production Comp Matrix"
+page 70524 "ABA Production Routing Matrix"
 {
     PageType = ListPart;
-    Caption = 'Information Matrix';
+    Caption = 'Routing';
     SourceTable = "SCB New Information Matrix";
     SourceTableView = SORTING("User ID", Table, "No.");
     DelayedInsert = true;
@@ -11,72 +11,6 @@ page 70523 "ABA Production Comp Matrix"
     {
         area(content)
         {
-            group(Filters)
-            {
-                Caption = 'Filters';
-                field(GlobalSetupCode; GlobalSetupCode)
-                {
-                    ApplicationArea = All;
-                    Caption = 'Template';
-                    Editable = false;
-                    ToolTip = 'Specifies the value of the Template field.';
-
-                    trigger OnLookup(var Text: Text): Boolean
-                    var
-                        AttributeMatrixSetup: Record "SCB New Info Matrix Setup";
-                        AttributeUserSetup: Record "SCB New Information User Setup";
-                    begin
-                        AttributeMatrixSetup.SetRange(Table, GlobalType);
-                        if AttributeMatrixSetup.Get(GlobalSetupCode) then;
-                        if PAGE.RunModal(Page::"SCB Info Matrix Setup List", AttributeMatrixSetup) = Action::LookupOK then begin
-                            AttributeUserSetup."User ID" := UpperCase(UserId);
-                            AttributeUserSetup.Table := GlobalType;
-                            AttributeUserSetup.Code := AttributeMatrixSetup.Code;
-                            AttributeUserSetup."Special Sorting Field" := GlobalSortingField;
-                            if not AttributeUserSetup.Insert() then
-                                AttributeUserSetup.Modify();
-                            SetPageView2('', GlobalType);
-                            RefreshPage();
-                            CurrPage.Update(false);
-                        end;
-                    end;
-                }
-                field(GlobalSortingField; GlobalSortingField)
-                {
-                    ApplicationArea = All;
-                    Caption = 'Special Sorting Field';
-                    ToolTip = 'Specifies the value of the Special Sorting Field field.';
-
-                    trigger OnLookup(var Text: Text): Boolean
-                    var
-                        InfoCode: Record "SCB New Information Code";
-                    begin
-                        InfoCode.SetFilter(Table, '%1|%2', GlobalType, 0);
-                        InfoCode.SetRange(Subtype, InfoCode.Subtype::Specification);
-                        InfoCode.SetFilter("Validation Datatype", '%1|%2|%3|%4|%5',
-                           InfoCode."Validation Datatype"::Decimal, InfoCode."Validation Datatype"::Integer,
-                           InfoCode."Validation Datatype"::Boolean, InfoCode."Validation Datatype"::Date, InfoCode."Validation Datatype"::DateTime);
-                        if GlobalSortingField <> '' then
-                            InfoCode.Code := GlobalSortingField;
-                        if PAGE.RunModal(0, InfoCode) = Action::LookupOK then begin
-                            GlobalSortingField := InfoCode.Code;
-                            ValidateGlobalSortingField();
-                        end;
-                    end;
-
-                    trigger OnValidate()
-                    begin
-                        ValidateGlobalSortingField();
-                    end;
-                }
-                field("COUNT"; Rec.COUNT())
-                {
-                    ApplicationArea = All;
-                    Caption = 'No. of lines';
-                    Editable = false;
-                    ToolTip = 'Specifies the value of the No. of lines field.';
-                }
-            }
             repeater(Group)
             {
                 field(Type; Rec.Table)
@@ -315,8 +249,14 @@ page 70523 "ABA Production Comp Matrix"
 
     trigger OnOpenPage()
     begin
+        GlobalType := Database::"Prod. Order Routing Line";
         KeyCount := SCBBasicFunctions.CountPrimaryKeys(GlobalType);
         SCBBasicFunctions.SetVisibleKeys(KeyCount, ShowKey1, ShowKey2, ShowKey3, ShowKey4, ShowKey5, ShowKey6, ShowKey7, ShowKey8, ShowKey9, ShowKey10);
+        ShowKey1 := false;
+        ShowKey2 := false;
+        ShowKey3 := false;
+        ShowKey4 := false;
+        ShowKey5 := false;
         RefreshPage();
 
         if GlobalSortingField <> '' then
@@ -475,6 +415,8 @@ page 70523 "ABA Production Comp Matrix"
     end;
 
     procedure RefreshPage()
+    var
+        MDISupportFunctions: codeunit "ABA MDI Support Functions";
     begin
         SetPageView2(GlobalSetupCode, GlobalType);
         AttributFunctions.BuildMatrixViewNew(GlobalType);
@@ -496,9 +438,10 @@ page 70523 "ABA Production Comp Matrix"
         Caption13 := AttributFunctions.ConfCaptionClassTranslate('13', GlobalType);
         Caption14 := AttributFunctions.ConfCaptionClassTranslate('14', GlobalType);
         Caption15 := AttributFunctions.ConfCaptionClassTranslate('15', GlobalType);
+        MDISupportFunctions.RemoveTypeFromCaption(Caption1, Caption2, Caption3, Caption4, Caption5, Caption6, Caption7, Caption8, Caption9, Caption10, Caption11, Caption12, Caption13, Caption14, Caption15);
         SCBBasicFunctions.GetPrimaryKeyFieldNamesFromTableNo(GlobalType, KeyCaption1, KeyCaption2, KeyCaption3, KeyCaption4, KeyCaption5, KeyCaption6, KeyCaption7, KeyCaption8, KeyCaption9, KeyCaption10);
     end;
-
+    
     local procedure ValidateGlobalSortingField()
     var
         AttributeMatrixSetup: Record "SCB New Info Matrix Setup";
@@ -513,9 +456,7 @@ page 70523 "ABA Production Comp Matrix"
             InfoCode.SetFilter("Validation Datatype", '%1|%2|%3|%4|%5',
                InfoCode."Validation Datatype"::Decimal, InfoCode."Validation Datatype"::Integer,
                InfoCode."Validation Datatype"::Boolean, InfoCode."Validation Datatype"::Date, InfoCode."Validation Datatype"::DateTime);
-#pragma warning disable AA0175
             InfoCode.FindFirst();
-#pragma warning restore AA0175
         end;
 
         AttributeUserSetup."User ID" := UpperCase(UserId);
@@ -529,5 +470,3 @@ page 70523 "ABA Production Comp Matrix"
         CurrPage.Update(false);
     end;
 }
-
-#pragma implicitwith restore

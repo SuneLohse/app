@@ -1,8 +1,14 @@
-tableextension 70530 "ABA Prod. Order Component Ext" extends "Prod. Order Component"
+tableextension 70531 "ABA Prod. Order Component Ext" extends "Prod. Order Component"
 {
     fields
     {
-        field(70525; "ABA Lot No."; Code[50])
+        field(70525; "ABA Quantity to post"; Decimal)
+        {
+            Caption = 'Quantity to post';
+            DataClassification = CustomerContent;
+            Decimalplaces = 0 : 5;
+        }
+        field(70530; "ABA Lot No."; Code[50])
         {
             Caption = 'Lot No.';
             DataClassification = CustomerContent;
@@ -12,7 +18,7 @@ tableextension 70530 "ABA Prod. Order Component Ext" extends "Prod. Order Compon
                 BatchProductionFunctions.UpdateItemTrackingFromProdComp(Rec);
             end;
         }
-        field(70526; "ABA Serial No."; Code[50])
+        field(70531; "ABA Serial No."; Code[50])
         {
             Caption = 'Serial No.';
             DataClassification = CustomerContent;
@@ -21,17 +27,17 @@ tableextension 70530 "ABA Prod. Order Component Ext" extends "Prod. Order Compon
                 BatchProductionFunctions.UpdateItemTrackingFromProdComp(Rec);
             end;
         }
-        field(70527; "ABA Add Lot Qty"; Decimal)
+        field(70532; "ABA Add Lot Qty"; Decimal)
         {
             Caption = 'Add Lot Qty';
             DataClassification = CustomerContent;
         }
-        field(70528; "ABA Add Serial Qty"; Decimal)
+        field(70533; "ABA Add Serial Qty"; Decimal)
         {
             Caption = 'Add Serial Qty';
             DataClassification = CustomerContent;
         }
-        field(70529; "ABA Tracked Lot Qty"; Decimal)
+        field(70534; "ABA Tracked Lot Qty"; Decimal)
         {
             Caption = 'Tracked Lot Qty';
             decimalplaces = 0:5;

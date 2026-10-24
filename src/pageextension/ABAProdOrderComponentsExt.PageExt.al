@@ -1,9 +1,13 @@
-pageextension 70534 "ABA Prod. Order Components Ext" extends "Prod. Order Components"
+pageextension 70535 "ABA Prod. Order Components Ext" extends "Prod. Order Components"
 {
     layout
     {
         addafter("Remaining Quantity")
         {
+            field("ABA Quantity to post"; Rec."ABA Quantity to post")
+            {
+                ApplicationArea = All;
+            }
             field("ABA Lot No."; Rec."ABA Lot No.")
             {
                 ApplicationArea = All;

@@ -369,7 +369,7 @@ codeunit 70525 "ABA Batch Production Functions"
         ProdOrderLine.Modify(true);
 
         UpdateProdOrderComponentQuantities(ProdOrderLine, OriginalQty);
-        UpdateProdOrderRoutingLineQuantities(ProdOrderLine, OriginalQty);
+        //UpdateProdOrderRoutingLineQuantities(ProdOrderLine, OriginalQty);
     end;
 
     local procedure SetProdOrderLineQuantity(var ProdOrderLine: Record "Prod. Order Line"; NewQuantity: Decimal)
@@ -499,7 +499,8 @@ codeunit 70525 "ABA Batch Production Functions"
         repeat
             NewProdOrderRoutingLine := FromProdOrderRoutingLine;
             NewProdOrderRoutingLine."Routing Reference No." := NewRoutingReferenceNo;
-            ScaleRunTime(NewProdOrderRoutingLine, ToProdOrderLine.Quantity, OriginalQty);
+            NewProdOrderRoutingLine."Setup Time" := 0;
+            //ScaleRunTime(NewProdOrderRoutingLine, ToProdOrderLine.Quantity, OriginalQty);
             NewProdOrderRoutingLine.Insert(true);
         until FromProdOrderRoutingLine.Next() = 0;
 
@@ -507,22 +508,22 @@ codeunit 70525 "ABA Batch Production Functions"
         ToProdOrderLine.Modify(true);
     end;
 
-    local procedure UpdateProdOrderRoutingLineQuantities(ProdOrderLine: Record "Prod. Order Line"; OriginalQty: Decimal)
-    var
-        ProdOrderRoutingLine: Record "Prod. Order Routing Line";
-    begin
-        if ProdOrderLine."Routing Reference No." = 0 then
-            exit;
+    // local procedure UpdateProdOrderRoutingLineQuantities(ProdOrderLine: Record "Prod. Order Line"; OriginalQty: Decimal)
+    // var
+    //     ProdOrderRoutingLine: Record "Prod. Order Routing Line";
+    // begin
+    //     if ProdOrderLine."Routing Reference No." = 0 then
+    //         exit;
 
-        ProdOrderRoutingLine.SetRange(Status, ProdOrderLine.Status);
-        ProdOrderRoutingLine.SetRange("Prod. Order No.", ProdOrderLine."Prod. Order No.");
-        ProdOrderRoutingLine.SetRange("Routing Reference No.", ProdOrderLine."Routing Reference No.");
-        if ProdOrderRoutingLine.FindSet() then
-            repeat
-                ScaleRunTime(ProdOrderRoutingLine, ProdOrderLine.Quantity, OriginalQty);
-                ProdOrderRoutingLine.Modify(true);
-            until ProdOrderRoutingLine.Next() = 0;
-    end;
+    //     ProdOrderRoutingLine.SetRange(Status, ProdOrderLine.Status);
+    //     ProdOrderRoutingLine.SetRange("Prod. Order No.", ProdOrderLine."Prod. Order No.");
+    //     ProdOrderRoutingLine.SetRange("Routing Reference No.", ProdOrderLine."Routing Reference No.");
+    //     if ProdOrderRoutingLine.FindSet() then
+    //         repeat
+    //             ScaleRunTime(ProdOrderRoutingLine, ProdOrderLine.Quantity, OriginalQty);
+    //             ProdOrderRoutingLine.Modify(true);
+    //         until ProdOrderRoutingLine.Next() = 0;
+    // end;
 
     local procedure GetNextRoutingReferenceNo(ProdOrderLine: Record "Prod. Order Line"): Integer
     var
@@ -535,67 +536,65 @@ codeunit 70525 "ABA Batch Production Functions"
         exit(1);
     end;
 
-    local procedure ScaleRunTime(var ProdOrderRoutingLine: Record "Prod. Order Routing Line"; NewQty: Decimal; OriginalQty: Decimal)
-    begin
-        if OriginalQty = 0 then
-            exit;
-        ProdOrderRoutingLine."Run Time" := Round(ProdOrderRoutingLine."Run Time" * NewQty / OriginalQty, 0.00001);
-    end;
-    internal procedure PrepareProdOrderCompMatrix(var ProdOrderLine: Record "Prod. Order Line")
+    // local procedure ScaleRunTime(var ProdOrderRoutingLine: Record "Prod. Order Routing Line"; NewQty: Decimal; OriginalQty: Decimal)
+    // begin
+    //     if OriginalQty = 0 then
+    //         exit;
+    //     ProdOrderRoutingLine."Run Time" := Round(ProdOrderRoutingLine."Run Time" * NewQty / OriginalQty, 0.00001);
+    // end;
+
+    internal procedure FillInProdLineMatrix(ProdOrderLine: Record "Prod. Order Line")
     var
-        InformationMatrixRec: Record "SCB New Information Matrix";
-        InformationMatrixPage: Page "SCB Information Matrix";
+        ProductionOrderMatrix: Page "ABA Production Order Matrix";
     begin
-        //SetTypeCU.SetConfigType(ActionType);
-        FillInProdOrderCompMatrix(5407, ProdOrderLine);
-        // InformationMatrixRec.SetRange(Table, 5407);
-        // InformationMatrixRec.SetRange(KeyField1, format(ProdOrderLine.Status));
-        // InformationMatrixRec.SetRange(KeyField2, format(ProdOrderLine."Prod. Order No."));
-        // InformationMatrixRec.SetRange(KeyField3, format(ProdOrderLine."Line No."));
-        // InformationMatrixPage.SetTableView(InformationMatrixRec);
-        // //InformationMatrixPage.SetPageView2('', ActionType);
-        // InformationMatrixPage.Run();
+        FillInProdOrderLineMatrix(Database::"Prod. Order Component", ProdOrderLine);
+        FillInProdOrderCompMatrix(Database::"Prod. Order Component", ProdOrderLine);
+        FillInProdOrderRoutingMatrix(Database::"Prod. Order Component", ProdOrderLine);
+        ProductionOrderMatrix.Run();
     end;
+
+    internal procedure FillInProdOrderLineMatrix(TableNo: Integer; ProdOrderLine: Record "Prod. Order Line")
+    var
+        ShopFloorSetup: record "SCB Shop Floor Setup";
+        InfoMatrixSetup: Record "SCB New Info Matrix Setup";
+    begin
+        ShopFloorSetup.Get();
+        InfoMatrixSetup.Get(ShopFloorSetup."ABA Prod Line Info. Matrix");
+        FillInMatrix(Database::"Prod. Order Line", ProdOrderLine, InfoMatrixSetup, 'Status', format(ProdOrderLine.Status), 'Prod. Order No.', format(ProdOrderLine."Prod. Order No."), 'Line No.', format(ProdOrderLine."Line No."), '', '', '', '');
+    end;
+
     internal procedure FillInProdOrderCompMatrix(TableNo: Integer; ProdOrderLine: Record "Prod. Order Line")
+    var
+        ShopFloorSetup: record "SCB Shop Floor Setup";
+        InfoMatrixSetup: Record "SCB New Info Matrix Setup";
+    begin
+        ShopFloorSetup.Get();
+        InfoMatrixSetup.Get(ShopFloorSetup."ABA Component Info. Matrix");
+        FillInMatrix(Database::"Prod. Order Component", ProdOrderLine, InfoMatrixSetup, 'Status', format(ProdOrderLine.Status), 'Prod. Order No.', format(ProdOrderLine."Prod. Order No."), 'Prod. Order Line No.', format(ProdOrderLine."Line No."), '', '', '', '');
+    end;
+
+    internal procedure FillInProdOrderRoutingMatrix(TableNo: Integer; ProdOrderLine: Record "Prod. Order Line")
+    var
+        ShopFloorSetup: record "SCB Shop Floor Setup";
+        InfoMatrixSetup: Record "SCB New Info Matrix Setup";
+    begin
+        ShopFloorSetup.Get();
+        InfoMatrixSetup.Get(ShopFloorSetup."ABA Routing Info. Matrix");
+        FillInMatrix(Database::"Prod. Order Routing Line", ProdOrderLine, InfoMatrixSetup, 'Status', format(ProdOrderLine.Status), 'Prod. Order No.', format(ProdOrderLine."Prod. Order No."), 'Routing Reference No.', format(ProdOrderLine."Line No."), '', '', '', '');
+    end;
+
+    internal procedure FillInMatrix(TableNo: Integer; ProdOrderLine: Record "Prod. Order Line"; InfoMatrixSetup: Record "SCB New Info Matrix Setup"; KeyField1Name: Text; KeyField1Filter: Text; KeyField2Name: Text; KeyField2Filter: Text; KeyField3Name: Text; KeyField3Filter: Text; KeyField4Name: Text; KeyField4Filter: Text; KeyField5Name: Text; KeyField5Filter: Text)
     var
         AddMatriceLines: Record "SCB Add Matrice Lines";
         AddMatriceLinesFilters: Record "SCB Add Matrice Lines Filters";
         InformationMatrixRec: Record "SCB New Information Matrix";
-        ProdOrderComponent: record "Prod. order component";
-        SetTypeCU: Codeunit "SCB SetTypeCodeUnit";
-        InfoMatrixSetup: Record "SCB New Info Matrix Setup";
-        InformationMatrixPage: Page "SCB Information Matrix";
-        CompExistErr: Label 'There is no Componentens related to the Production Order Line';
         RecordsHandled: Integer;
         AddOrRemove: Option Add,Remove;
     begin
-        InformationMatrixRec.SetRange("User ID", CopyStr(UpperCase(UserId), 1, MaxStrLen(AddMatriceLines."User ID")));;
+        InformationMatrixRec.SetRange("User ID", CopyStr(UpperCase(UserId), 1, MaxStrLen(AddMatriceLines."User ID")));
         InformationMatrixRec.SetRange(Table, TableNo);
-        InformationMatrixRec.SetRange(KeyField1, format(ProdOrderLine.Status));
-        InformationMatrixRec.SetRange(KeyField2, format(ProdOrderLine."Prod. Order No."));
-        InformationMatrixRec.SetRange(KeyField3, format(ProdOrderLine."Line No."));
         if InformationMatrixRec.FindSet() then
             InformationMatrixRec.DeleteAll();
-        ProdOrderComponent.SetRange(Status, ProdOrderLine.Status);
-        ProdOrderComponent.SetRange("Prod. Order No.", ProdOrderLine."Prod. Order No.");
-        ProdOrderComponent.SetRange("Prod. Order Line No.", ProdOrderLine."Line No.");
-        // if ProdOrderComponent.FindSet() then
-        //     repeat
-        //         InformationMatrixRec.Init();
-        //         InformationMatrixRec.Table := 5407;
-        //         InformationMatrixRec.KeyField1 := format(ProdOrderLine.Status);
-        //         InformationMatrixRec.KeyField2 := format(ProdOrderLine."Prod. Order No.");
-        //         InformationMatrixRec.KeyField3 := format(ProdOrderLine."Line No.");
-        //         InformationMatrixRec.KeyField4 := format(ProdOrderComponent."Line No."
-
-        //SLO 2024-04-05 We could consider making this function obsolete, since the parameter ActionType is found in the function,
-        //and therefore should not be part of the parameters.
-        if not ProdOrderComponent.FindFirst() then
-            Error(CompExistErr);
-        InfoMatrixSetup.Get('PRODORDERCOMP'); //Skal rettes
-        // InformationMatrixRec.SetRange("User ID", UpperCase(UserId));
-        // InformationMatrixRec.SetRange(Table, 5407);
-        // InformationMatrixRec.DeleteAll();
         AddMatriceLines."User ID" := CopyStr(UpperCase(UserId), 1, MaxStrLen(AddMatriceLines."User ID"));
         AddMatriceLines.Table := TableNo;
         AddMatriceLinesFilters.SetRange("User ID", CopyStr(UpperCase(UserId), 1, MaxStrLen(AddMatriceLines."User ID")));
@@ -603,20 +602,32 @@ codeunit 70525 "ABA Batch Production Functions"
         AddMatriceLinesFilters.DeleteAll();
         AddMatriceLinesFilters."User ID" := CopyStr(UpperCase(UserId), 1, MaxStrLen(AddMatriceLinesFilters."User ID"));
         AddMatriceLinesFilters.Table := TableNo;
-        AddMatriceLinesFilters."Field Name" := 'Status';
-        AddMatriceLinesFilters."Field Filter" := format(ProdOrderLine.Status);
-        AddMatriceLinesFilters.Insert();
-        AddMatriceLinesFilters."Field Name" := 'Prod. Order No.';
-        AddMatriceLinesFilters."Field Filter" := format(ProdOrderLine."Prod. Order No.");
-        AddMatriceLinesFilters.Insert();
-        AddMatriceLinesFilters."Field Name" := 'Prod. Order Line No.';
-        AddMatriceLinesFilters."Field Filter" := format(ProdOrderLine."Line No.");
-        AddMatriceLinesFilters.Insert();
+        if Keyfield1Name <> '' then begin
+            AddMatriceLinesFilters."Field Name" := Keyfield1Name;
+            AddMatriceLinesFilters."Field Filter" := Keyfield1Filter;
+            AddMatriceLinesFilters.Insert();
+        end;
+        if Keyfield2Name <> '' then begin
+            AddMatriceLinesFilters."Field Name" := Keyfield2Name;
+            AddMatriceLinesFilters."Field Filter" := Keyfield2Filter;
+            AddMatriceLinesFilters.Insert();
+        end;
+        if Keyfield3Name <> '' then begin
+            AddMatriceLinesFilters."Field Name" := Keyfield3Name;
+            AddMatriceLinesFilters."Field Filter" := Keyfield3Filter;
+            AddMatriceLinesFilters.Insert();
+        end;
+        if Keyfield4Name <> '' then begin
+            AddMatriceLinesFilters."Field Name" := Keyfield4Name;
+            AddMatriceLinesFilters."Field Filter" := Keyfield4Filter;
+            AddMatriceLinesFilters.Insert();
+        end;
+        if Keyfield5Name <> '' then begin
+            AddMatriceLinesFilters."Field Name" := Keyfield5Name;
+            AddMatriceLinesFilters."Field Filter" := Keyfield5Filter;
+            AddMatriceLinesFilters.Insert();
+        end;
         AddMatriceLines.AddOrRemoveMatriceLines2(AddMatriceLines, AddOrRemove::Add, RecordsHandled);
-        SetTypeCU.SetConfigType(tableNo);
-        InformationMatrixPage.SetTableView(InformationMatrixRec);
-        InformationMatrixPage.SetPageView2('', TableNo);
-        InformationMatrixPage.Run();
     end;
 
     internal procedure AddLotOrSerialNo(ItemNo: Code[20]; VariantCode: Code[20]; var LotNo: Code[20]; var SerialNo: Code[20]; LocationCode: Code[10]; LotOrSerialNo: Option LotNo,SerialNo; RequiredQtyBase: Decimal; var AddLotQty: Decimal; var AddSerialQty: Decimal)

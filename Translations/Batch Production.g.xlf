@@ -83,11 +83,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit ABA Batch Production Functions - NamedType MoreLinesExistsMsg</note>
         </trans-unit>
-        <trans-unit id="Codeunit 885747304 - Method 1649337407 - NamedType 3662401593" size-unit="char" translate="yes" xml:space="preserve">
-          <source>There is no Componentens related to the Production Order Line</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ABA Batch Production Functions - Method FillInProdOrderCompMatrix - NamedType CompExistErr</note>
-        </trans-unit>
         <trans-unit id="Page 2126095063 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Split Production Order Line</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -109,7 +104,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page ABA Item Tracking List - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3631759301 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Information Matrix</source>
+          <source>Components</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Property Caption</note>
         </trans-unit>
@@ -117,41 +112,6 @@
           <source>Type must be %1</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - NamedType SCB672Text001</note>
-        </trans-unit>
-        <trans-unit id="Page 3631759301 - Control 284195533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Filters</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control Filters - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3631759301 - Control 2858246061 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the No. of lines field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control COUNT - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 3631759301 - Control 2858246061 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>No. of lines</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control COUNT - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3631759301 - Control 2593589163 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Template field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control GlobalSetupCode - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 3631759301 - Control 2593589163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Template</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control GlobalSetupCode - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3631759301 - Control 2750400213 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Special Sorting Field field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control GlobalSortingField - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 3631759301 - Control 2750400213 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Special Sorting Field</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control GlobalSortingField - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3631759301 - Control 2416284977 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Column1 field.</source>
@@ -308,6 +268,171 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Comp Matrix - Control Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2776855576 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - NamedType 2024771351" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type must be %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - NamedType SCB672Text001</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 2416284977 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column1 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control Column1 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 827396561 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column10 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control Column10 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 1465093178 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column11 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control Column11 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 3846970623 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column12 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control Column12 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 189699944 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column13 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control Column13 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 3378183029 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column14 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control Column14 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 4015879646 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column15 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control Column15 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 1778588360 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column2 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control Column2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 1140891743 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column3 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control Column3 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 1309800766 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column4 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control Column4 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 672104149 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column5 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control Column5 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 34407532 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column6 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control Column6 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 3691678211 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column7 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control Column7 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 3860587234 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column8 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control Column8 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 3222890617 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column9 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control Column9 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Entry No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 2799230977 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the ItemVariantRemove field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control Item Variant Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 717718184 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 1 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control KeyField1 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 1531148992 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 10 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control KeyField10 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 1355414801 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 2 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control KeyField2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 1993111418 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 3 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control KeyField3 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 2630808035 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 4 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control KeyField4 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 3268504652 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 5 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control KeyField5 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 3906201269 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 6 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control KeyField6 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 248930590 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 7 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control KeyField7 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 886627207 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 8 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control KeyField8 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 1524323824 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 9 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control KeyField9 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 3616153432 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Special Sorting No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control Special Sorting No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Table field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2776855576 - Control 1878130204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Line Matrix - Control Type - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1462442880 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Production Order Matrix</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -317,6 +442,211 @@
           <source>Components</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Order Matrix - Control CompMatrix - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1462442880 - Control 3688706256 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Order Matrix - Control ProdLineMatrix - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1462442880 - Control 1279823609 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Routing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Order Matrix - Control RoutingMatrix - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1462442880 - Action 1268586683 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Show/Hide Components action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Order Matrix - Action ShowComponentLines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1462442880 - Action 1268586683 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show/Hide Components</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Order Matrix - Action ShowComponentLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1462442880 - Action 3127619865 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Show/Hide Order Lines action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Order Matrix - Action ShowHideProdLines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1462442880 - Action 3127619865 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show/Hide Order Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Order Matrix - Action ShowHideProdLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1462442880 - Action 1157196357 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Show/Hide Operations action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Order Matrix - Action ShowOperationLines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1462442880 - Action 1157196357 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show/Hide Operations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Order Matrix - Action ShowOperationLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Routing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - NamedType 2024771351" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type must be %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - NamedType SCB672Text001</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 2416284977 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column1 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control Column1 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 827396561 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column10 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control Column10 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 1465093178 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column11 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control Column11 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 3846970623 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column12 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control Column12 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 189699944 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column13 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control Column13 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 3378183029 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column14 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control Column14 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 4015879646 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column15 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control Column15 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 1778588360 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column2 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control Column2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 1140891743 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column3 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control Column3 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 1309800766 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column4 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control Column4 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 672104149 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column5 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control Column5 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 34407532 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column6 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control Column6 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 3691678211 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column7 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control Column7 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 3860587234 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column8 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control Column8 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 3222890617 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Column9 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control Column9 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Entry No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 2799230977 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the ItemVariantRemove field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control Item Variant Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 717718184 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 1 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control KeyField1 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 1531148992 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 10 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control KeyField10 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 1355414801 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 2 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control KeyField2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 1993111418 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 3 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control KeyField3 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 2630808035 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 4 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control KeyField4 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 3268504652 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 5 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control KeyField5 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 3906201269 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 6 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control KeyField6 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 248930590 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 7 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control KeyField7 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 886627207 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 8 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control KeyField8 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 1524323824 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Key Field 9 field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control KeyField9 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 3616153432 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Special Sorting No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control Special Sorting No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Table field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3398317010 - Control 1878130204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABA Production Routing Matrix - Control Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2926403210 - Action 1593737613 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1295051820">
           <source>Splits the selected line into several lines with the quantity divided evenly between them.</source>
@@ -392,6 +722,11 @@
           <source>Information Matrix</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ABA MDI Prod Journal Extension - Action ABA Batch Production SCB Information Matrix - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2513701579 - Control 1168108434 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3037574163">
+          <source>Information Matrix Templates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ABA Shop Floor Setup - Control ABA Information Matrix Templates - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3452335934 - Field 2251222901 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2308244223">
           <source>How many Batches</source>
@@ -728,6 +1063,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA Prod. Order Component Ext - Field ABA Lot No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1086590375 - Field 814061406 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3495052746">
+          <source>Quantity to post</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA Prod. Order Component Ext - Field ABA Quantity to post - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1086590375 - Field 3380928951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3495052746">
           <source>Serial No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -737,6 +1077,66 @@
           <source>Tracked Lot Qty</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA Prod. Order Component Ext - Field ABA Tracked Lot Qty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1490844984 - Field 3488311542 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4218928473">
+          <source>Lot No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA Prod. Order Line Ext - Field ABA Lot No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1490844984 - Field 2043759686 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4218928473">
+          <source>Output Quantity to post</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA Prod. Order Line Ext - Field ABA Output Qty to post - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1490844984 - Field 3380928951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4218928473">
+          <source>Serial No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA Prod. Order Line Ext - Field ABA Serial No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3028832914 - Field 2043759686 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 803582013">
+          <source>Output Quantity to post</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA Prod. Order Routing Ext - Field ABA Output Qty to post - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3028832914 - Field 672120599 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 803582013">
+          <source>Run Time to post</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA Prod. Order Routing Ext - Field ABA Run Time to post - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3028832914 - Field 200692237 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 803582013">
+          <source>Setup Time to post</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA Prod. Order Routing Ext - Field ABA Setup Time to post - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2513701579 - Field 1519794698 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3037574163">
+          <source>Specifies the Component Information Matrix to be used for the Component Lines on the Shop Floor Journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA Shop Floor Setup - Field ABA Component Info. Matrix - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2513701579 - Field 1519794698 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3037574163">
+          <source>Component Information Matrix</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA Shop Floor Setup - Field ABA Component Info. Matrix - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2513701579 - Field 3014007514 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3037574163">
+          <source>Specifies the Production Line Information Matrix to be used for the Production Line on the Shop Floor Journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA Shop Floor Setup - Field ABA Prod Line Info. Matrix - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2513701579 - Field 3014007514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3037574163">
+          <source>Production Line Information Matrix</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA Shop Floor Setup - Field ABA Prod Line Info. Matrix - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2513701579 - Field 664625415 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3037574163">
+          <source>Specifies the Routing Information Matrix to be used for the Routing Lines on the Shop Floor Journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA Shop Floor Setup - Field ABA Routing Info. Matrix - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2513701579 - Field 664625415 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3037574163">
+          <source>Routing Information Matrix</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABA Shop Floor Setup - Field ABA Routing Info. Matrix - Property Caption</note>
         </trans-unit>
       </group>
     </body>

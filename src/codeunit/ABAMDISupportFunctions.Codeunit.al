@@ -21,6 +21,13 @@ codeunit 70527 "ABA MDI Support Functions"
         TransferItemMasterDataToItemJournalLine(Rec, Rec);
     end;
 
+    var
+        InformationUserSetup: Record "SCB New Information User Setup";
+        SCBBasicFunctions: Codeunit "SCB Basic Functions";
+        InformationFunctions: Codeunit "SCB Information Functions";
+        SubscriberEvents: Codeunit "SCB Subscriber Events 682";
+        Window: Dialog;
+
     /// <summary>
     /// Transfers Master Data on Documents content from the Item onto the Item Journal Line, the same way it is
     /// transferred onto Sales/Purchase lines, keeping only content lines flagged "ABA Batch Production Journal".
@@ -337,6 +344,29 @@ codeunit 70527 "ABA MDI Support Functions"
     end;
     //2026-09-28 SLO Temp <<
 
-    var
-        SubscriberEvents: Codeunit "SCB Subscriber Events 682";
+    internal procedure RemoveTypeFromCaption(var Caption1: Text; var Caption2: Text; var Caption3: Text; var Caption4: Text; var Caption5: Text; var Caption6: Text; var Caption7: Text; var Caption8: Text; var Caption9: Text; var Caption10: Text; var Caption11: Text; var Caption12: Text; var Caption13: Text; var Caption14: Text; var Caption15: Text)
+    begin
+        Caption1 := RemoveParentesAndContent(Caption1);
+        Caption2 := RemoveParentesAndContent(Caption2);
+        Caption3 := RemoveParentesAndContent(Caption3);
+        Caption4 := RemoveParentesAndContent(Caption4);
+        Caption5 := RemoveParentesAndContent(Caption5);
+        Caption6 := RemoveParentesAndContent(Caption6);
+        Caption7 := RemoveParentesAndContent(Caption7);
+        Caption8 := RemoveParentesAndContent(Caption8);
+        Caption9 := RemoveParentesAndContent(Caption9);
+        Caption10 := RemoveParentesAndContent(Caption10);
+        Caption11 := RemoveParentesAndContent(Caption11);
+        Caption12 := RemoveParentesAndContent(Caption12);
+        Caption13 := RemoveParentesAndContent(Caption13);
+        Caption14 := RemoveParentesAndContent(Caption14);
+        Caption15 := RemoveParentesAndContent(Caption15);
+    end;
+
+    internal procedure RemoveParentesAndContent(var TextToRemove: Text): Text
+    begin
+        if StrPos(TextToRemove, '(') > 0 then
+            TextToRemove := CopyStr(TextToRemove, 1, StrPos(TextToRemove, '(') - 1);
+        exit(TextToRemove);
+    end;
 }
